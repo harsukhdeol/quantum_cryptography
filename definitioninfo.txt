@@ -1,0 +1,25 @@
+<p>Cryptography is the process of coding and subsequently decoding messages and information. It's something that your computers do everyday when you input sensitive information.
+
+Current encryption algorithms are based on complex math that takes very long for modern computers to perform. However, while our technology is limited now, it's advancing quickly. Especially with new research being done on quantum computing, which will result in computers with very fast processing speeds, it is possible that those codes will become a lot easier to break in the future.
+
+That's where quantum cryptography comes in. It relies more on physics than math by sending messages using particles of light called photons. Their specific properties make it very difficult to successfully intercept and decrypt them, making them a secure alternative that we can rely on.  (Clark, 2007).
+</p>
+
+<h3>Basis</h3>
+<p>
+Quantum cryptography relies on the properties of photons outlined in Heisenberg's Uncertainty Principle. That is, someone observing a subatomic particle could not definitively know its location and speed at the same time. To obtain information on one property, it would destroy information on another. This is because of their complicated nature and our limitations as outside observers. (Assche).
+In a normal computer, information is saved as bits, which are 0's or 1's. However, in quantum computers, information is saved as qubits, which can be 0's, 1's, or both at the same time. The potential to exist in multiple states is why quantum computers would be much faster than regular computers. (Assche).
+
+In the Alice and Bob model of QKD, Alice sends photons in qubit states through a polarizer. Since they can exist in any state, they pass through her polarizer regardless of setting and are then prescribed a bit value. Since they have bit values when they reach Bob, they can now only successfully pass through specific polarizer filters. (Rouse, 2005).
+<p>
+
+<h3> Discovery</h3>
+<p>
+Quantum cryptography was proposed first by Stephen Wiesner, then at Columbia University in New York, who, in the early 1970s, introduced the concept of quantum conjugate coding. In his seminal paper entitled "Conjugate Coding", which was published in 1983, he displayed how to store or transmit two messages by encoding them in two "conjugate observables", such as linear and circular polarization of light, so that either, but not both, of which may be received and decoded. He illustrated his idea with a design of unforgeable bank notes. In 1984, building upon this work, Charles H. Bennett, of the IBM's Thomas J. Watson Research Center, and Gilles Brassard, of the Université de Montréal, proposed a method for secure communication based on Wiesner's "conjugate observables", which is now called BB84. The first experimental prototype based on this was made in 1991, Ekert developed a different approach to quantum key distribution based on peculiar quantum correlations known as quantum entanglement. It operated over a distance of 32 centimeters. Over time, the technology has been refined and the distance increased to kilometers (Aubum, 2003).
+</p>
+
+<h3> Importance</h3>
+<p>
+In an article written by Yi Zhao, he states that “if quantum cryptography is appropriately implemented, even the most powerful eavesdropper cannot decrypt the message from a cipher” (Zhao, 2009).
+Normally, people protect their personal data by choosing a complicated password (with numbers, lower-case letters and capital letters, etc) . However, even when people do this, the password relies on mathematics. The hackers can use a software (like a virus) that will raid the computer when the owners are unaware and obtain their private information easily. With quantum cryptography, as it relies on physics, it is impossible to measure the quantum state of any system without disturbing it. It is theoretically possible that other particles could be used, but photons offer all the necessary qualities: their behavior is comparatively well-understood, and they are can carry information in fiber optic cables, the most promising medium for extremely high-bandwidth communications (Rouse, 2005).
+</p>
